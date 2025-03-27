@@ -45,7 +45,7 @@ This interactive chart reveals how different crimes vary throughout the week. Fo
 - **Assault** peaks midweek and weekends
 - **Burglary** stays stable throughout
 
-Open the [Jupyter Notebook version](#) to interact with the full chart.
+<iframe src="images/bokeh_chart.html" width="100%" height="600" frameborder="0"></iframe>
 
 ---
 
