@@ -46,11 +46,16 @@ This suggests the need for tailored local interventions.
 
 This interactive chart reveals how different crimes vary throughout the week. For example:
 
-- **Drunkenness** spikes on **weekends**
-- **Assault** peaks midweek and weekends
+- **Drunkenness** spikes on **weekends**  
+- **Assault** peaks midweek and weekends  
 - **Burglary** stays relatively consistent throughout the week
 
 <iframe src="images/bokeh_chart.html" width="100%" height="600" frameborder="0"></iframe>
+
+**Figure 3**: Interactive bar chart showing weekly patterns for the top 10 crime categories in San Francisco.  
+Each colored bar represents a crime type, with hoverable tooltips providing detail by day.  
+This visualization highlights how specific crimes cluster on certain weekdays — such as nightlife-related offenses on weekends — offering insights into behavioral rhythms and policy needs.
+
 
 ---
 
