@@ -61,7 +61,7 @@ By visualizing the data, we empower citizens, policymakers, and researchers to m
 
 ---
 
-## 🔗 References
+## References
 
 - [SF Crime Data Portal](https://data.sfgov.org)
 - [Bokeh](https://bokeh.org)
