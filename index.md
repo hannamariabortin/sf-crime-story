@@ -1,39 +1,41 @@
----
-title: "San Francisco Crime: A Data Story"
-layout: default
----
-
 # Crime in San Francisco: A Decade in Data
 
-*By Hanna Bortin | Social Data Analysis and Visualization*
+*Social Data Analysis and Visualization*
 
 ---
 
-##  Introduction
+## Introduction
 
-San Francisco is a vibrant, world-famous city — but like any major urban area, it faces challenges around crime. This story explores patterns in SF crime over the past two decades, using real police data to uncover trends, geographic hot zones, and time-based behavior. All prostitution-related crimes were excluded to focus on broader public safety concerns.
+San Francisco is a vibrant, world-famous city — but like any major urban area, it faces challenges around crime.  
+This story explores crime trends over the past two decades using real police data to uncover:
 
-The data comes from the **San Francisco Police Department**, spanning **2003 to 2024**, and includes information on crime type, time, location, and police district.
+- When crimes occur  
+- Where they cluster  
+- How they vary throughout the week  
+
+All prostitution-related data was excluded for broader public safety focus.
+
+Data: **San Francisco Police Department** (2003–2024)
 
 ---
 
 ## 1. Crime Over Time: Is SF Getting Safer?
 
-![Line Chart](images/line_chart.png)
+![Line Chart of Total Crimes Over Time](images/line_chart.png)
 
-> **Figure 1**: Total reported crimes in San Francisco from 2003–2024.
-
-Crime peaked in the early 2010s, then began to decline — potentially due to policing strategies or community programs. Crime dropped further during the COVID-19 pandemic, likely tied to lockdown measures and shifts in public activity.
+**Figure 1**: Total reported crimes in San Francisco from 2003–2024.  
+Crime peaked in the early 2010s, then began to decline — potentially due to policing strategies or community programs.  
+A sharp drop in 2020 aligns with the COVID-19 pandemic and public activity restrictions.
 
 ---
 
-##  2. Where Crime Happens: District Hotspots
+## 2. Crime Categories Across Police Districts
 
-![Heatmap](images/heatmap.png)
+![Heatmap of Crime by District](images/heatmap.png)
 
-> **Figure 2**: Distribution of crime types across SF police districts.
-
-The heatmap reveals that districts like **Tenderloin**, **Southern**, and **Mission** have higher crime rates — particularly for offenses like assault, drug/narcotics, and larceny/theft. In contrast, **Park** and **Richmond** are less crime-dense.
+**Figure 2**: Heatmap showing distribution of crime categories across SF police districts.  
+Some crimes like **larceny theft** are widespread, while others like **liquor law violations** are concentrated in specific districts.  
+This suggests the need for tailored local interventions.
 
 ---
 
@@ -43,19 +45,19 @@ This interactive chart reveals how different crimes vary throughout the week. Fo
 
 - **Drunkenness** spikes on **weekends**
 - **Assault** peaks midweek and weekends
-- **Burglary** stays stable throughout
+- **Burglary** stays relatively consistent throughout the week
 
 <iframe src="images/bokeh_chart.html" width="100%" height="600" frameborder="0"></iframe>
 
 ---
 
-##  Conclusion
+## Conclusion
 
 Together, these charts tell a cohesive story:
 
-- **When**: Crime declined over time, with COVID marking a major drop.
-- **Where**: Certain districts remain hotspots, suggesting policy intervention is still needed.
-- **Why/How**: Weekly rhythms in crime align with human behavior — nightlife, workweek patterns, etc.
+- **When**: Crime declined over time, with COVID marking a major drop.  
+- **Where**: Certain districts remain hotspots, suggesting policy intervention is still needed.  
+- **Why/How**: Weekly rhythms in crime align with nightlife, workweek patterns, and human behavior.
 
 By visualizing the data, we empower citizens, policymakers, and researchers to make informed decisions for a safer city.
 
@@ -64,6 +66,7 @@ By visualizing the data, we empower citizens, policymakers, and researchers to m
 ## References
 
 - [SF Crime Data Portal](https://data.sfgov.org)
-- [Bokeh](https://bokeh.org)
+- [Bokeh Visualization Tool](https://bokeh.org)
 - [Narrative Visualization (Segel & Heer)](http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf)
+
 
