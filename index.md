@@ -3,13 +3,13 @@ title: "San Francisco Crime: A Data Story"
 layout: default
 ---
 
-# 📊 Crime in San Francisco: A Decade in Data
+# Crime in San Francisco: A Decade in Data
 
 *By Hanna Bortin | Social Data Analysis and Visualization*
 
 ---
 
-## 🧭 Introduction
+##  Introduction
 
 San Francisco is a vibrant, world-famous city — but like any major urban area, it faces challenges around crime. This story explores patterns in SF crime over the past two decades, using real police data to uncover trends, geographic hot zones, and time-based behavior. All prostitution-related crimes were excluded to focus on broader public safety concerns.
 
@@ -17,7 +17,7 @@ The data comes from the **San Francisco Police Department**, spanning **2003 to 
 
 ---
 
-## 📈 1. Crime Over Time: Is SF Getting Safer?
+## 1. Crime Over Time: Is SF Getting Safer?
 
 ![Line Chart](images/line_chart.png)
 
@@ -27,7 +27,7 @@ Crime peaked in the early 2010s, then began to decline — potentially due to po
 
 ---
 
-## 🗺️ 2. Where Crime Happens: District Hotspots
+##  2. Where Crime Happens: District Hotspots
 
 ![Heatmap](images/heatmap.png)
 
@@ -37,7 +37,7 @@ The heatmap reveals that districts like **Tenderloin**, **Southern**, and **Miss
 
 ---
 
-## 🖱️ 3. Weekly Crime Patterns (Interactive Bokeh)
+## 3. Weekly Crime Patterns (Interactive Bokeh)
 
 This interactive chart reveals how different crimes vary throughout the week. For example:
 
@@ -49,7 +49,7 @@ Open the [Jupyter Notebook version](#) to interact with the full chart.
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 Together, these charts tell a cohesive story:
 
